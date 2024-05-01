@@ -37,7 +37,7 @@ function App() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus gravida massa placerat tempor. Fusce auctor orci magna, sit amet luctus diam hendrerit sit amet. Donec vitae sapien eget dui pulvinar sagittis vitae non metus. Maecenas pulvinar tortor vitae mattis pulvinar. Integer ultricies, nisl in tempor maximus, lacus enim pretium."
           imageUrl="https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1vdXNlfGVufDB8fDB8fHww"
         />
-        <ProductCard/>
+        <ProductCard/>  {/** If NO PROPS PASSED */}
       </div>
     </>
   )
